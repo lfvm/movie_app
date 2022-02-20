@@ -7,7 +7,7 @@ that are currently playing on cinemas.
 
 ## Screenshots
 
-![simulator_screenshot_68C31F1F-71E8-4FB4-AD5A-921D74F48FFE](https://user-images.githubusercontent.com/57450093/154870012-b8b610c1-5e58-4957-a003-b9505c64aae2.png)
+![simulator_screenshot_68C31F1F-71E8-4FB4-AD5A-921D74F48FFE](https://user-images.githubusercontent.com/57450093/154870012-b8b610c1-5e58-4957-a003-b9505c64aae2.png =100x20)
 
 ![simulator_screenshot_2DCFD165-BB7D-48D4-8F1F-FFE20B8BD71B](https://user-images.githubusercontent.com/57450093/154870017-8a411143-04c7-48e4-8e05-032d58cd4e97.png)
 
