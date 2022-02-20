@@ -1,16 +1,30 @@
-# movie_app
 
-A new Flutter project.
+# Popular Movies Mobile App
 
-## Getting Started
+A flutter mobile application that allows users to visualize 
+movies and get data about movies
+that are currently playing on cinemas.
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- Search for a desired movie
+- Get relevant data from a movie:
+    - Cast
+    - Reviews 
+    - Descprition
+    - Movie Poster
+- Vizualise popular and now playing movies.
+- Cross platform
+
+
+## Tech Stack
+
+**Client:** Flutter
+
+**API:** The movie Db: https://www.themoviedb.org/
+

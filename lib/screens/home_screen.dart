@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_app/providers/movie_provider.dart';
+import 'package:movie_app/screens/loading.dart';
 import 'package:movie_app/widgets/seacrh/search_delegate.dart';
 import 'package:movie_app/widgets/widgets.dart';
 import 'package:provider/provider.dart';
@@ -15,8 +16,8 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     
     final moviesProvider = Provider.of<MovieProvier>(context,listen: true);
-    print(moviesProvider.NowPlayingMovies[0].id);
 
+    if ( moviesProvider.NowPlayingMovies.length == 0 ) { return LoadingScreen(); }
 
     return Scaffold(
 

@@ -13,18 +13,21 @@ class MovieProvier extends ChangeNotifier {
   List<Movie> PopularMovies = [];
 
   Map<int,List<Cast>> movieCast = {};
-
+  bool isLoading = false;
 
   int popularPage = 0;
 
-  MovieProvier(){
-    print("Provider initialized");
+  MovieProvier(){ 
+    isLoading = true;
+    notifyListeners();
     this.getCinemaMovies();
     this.getPopularMovies();
+    isLoading = false;
+    notifyListeners();
   }
 
   getCinemaMovies() async {
-
+    
     final response = await _GetJsonData("3/movie/now_playing");
 
 
